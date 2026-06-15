@@ -1,12 +1,95 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Skillware4u User Manual
+1. Project Overview
 
-Currently, two official plugins are available:
+Skillware4u is a React-based web application built using Vite. The application can be run locally on any Windows, macOS, or Linux computer that has Node.js installed.
+Project Structure
+website/
+│
+├── public/
+├── src/
+│   ├── pages/
+│   ├── redux/
+│   ├── section/
+│   ├── styles/
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── package.json
+├── package-lock.json
+├── vite.config.js
+└── index.html
+System Requirements
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Before running the project, make sure your computer has:
 
-## Expanding the ESLint configuration
+Required Software
+Node.js (Version 18 or higher recommended)
+npm (installed automatically with Node.js)
+Git (optional, for cloning from GitHub)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Method 1: Run After Downloading ZIP from GitHub
+Step 1: Download the Project
+Open the GitHub repository.
+Click Code.
+Click Download ZIP.
+Extract the ZIP file.
+Step 2: Open Terminal
+
+Navigate to the project folder.
+
+Example:
+
+cd Skillware4u/website
+Step 3: Install Dependencies
+
+Run:
+
+npm install
+
+This command installs all required packages listed in package.json.
+
+Wait until installation completes.
+
+Step 4: Start Development Server
+
+Run:
+
+npm run dev
+
+You should see output similar to:
+
+VITE vX.X.X ready
+
+Local: http://localhost:5173/
+Step 5: Open in Browser
+
+Open:
+
+http://localhost:5173
+
+The Skillware4u application will load.
+
+Method 2: Run Directly from GitHub Repository
+Step 1: Clone Repository
+
+Open terminal and run:
+
+git clone https://github.com/USERNAME/REPOSITORY_NAME.git
+
+Replace:
+
+USERNAME with your GitHub username
+REPOSITORY_NAME with your repository name
+Step 2: Move Into Project Folder
+cd REPOSITORY_NAME/website
+Step 3: Install Packages
+npm install
+Step 4: Run Project
+npm run dev
+Step 5: Open Browser
+
+Visit:
+
+http://localhost:5173// change port according to your avaliable port
