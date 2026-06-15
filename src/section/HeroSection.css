@@ -1,0 +1,96 @@
+/* src/section/HeroSection.css */
+.hero-section {
+  background-color: #061d49;
+  color: white;
+  padding: 80px 40px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.hero-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.hero-left {
+  flex: 1 1 50%;
+  max-width: 550px;
+}
+
+.small-heading {
+  color: #4aa1f3;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.hero-left h1 {
+  font-size: 42px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.sub-heading {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #c5c5c5;
+  margin-bottom: 30px;
+}
+
+.hero-reviews {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.avatars img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  margin-left: -10px;
+}
+
+.reviews-text {
+  font-size: 13px;
+  line-height: 1.4;
+  color: #eee;
+}
+
+.hero-right {
+  position: relative;
+  flex: 1 1 50%;
+  text-align: center;
+}
+
+.hero-img {
+  max-width: 100%;
+  height: auto;
+  z-index: 1;
+}
+
+.hero-stats {
+  position: absolute;
+  top: 10%;
+  right: 5%;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  z-index: 2;
+}
+
+.hero-stats div {
+  color: white;
+  text-align: right;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.hero-stats div span {
+  display: block;
+  font-size: 12px;
+  font-weight: normal;
+  color: #ccc;
+}

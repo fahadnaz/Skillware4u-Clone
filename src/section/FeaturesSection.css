@@ -1,0 +1,139 @@
+.features-section {
+  padding: 80px 20px;
+  background: #f8f9fb;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.features-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1300px;
+  margin: 0 auto;
+  gap: 40px;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.features-images {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  flex: 1;
+  min-width: 300px;
+}
+
+.features-images img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.features-content {
+  flex: 1;
+  min-width: 300px;
+}
+
+.section-subtitle {
+  color: #3456ff;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.features-content h2 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #0c1e36;
+}
+
+.features-description {
+  color: #666;
+  font-size: 15px;
+  line-height: 1.7;
+  margin-bottom: 25px;
+}
+
+.features-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 30px 0;
+}
+
+.features-list li {
+  margin-bottom: 10px;
+  color: #0c1e36;
+  font-size: 15px;
+}
+
+.features-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+}
+
+.founder-card {
+  background: white;
+  padding: 15px 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.07);
+}
+
+.founder-card strong {
+  display: block;
+  font-size: 16px;
+  color: #0c1e36;
+}
+
+.founder-card p {
+  font-size: 13px;
+  color: #888;
+}
+
+.contact-support p {
+  margin: 0;
+  color: #0c1e36;
+}
+
+.contact-support strong {
+  font-size: 18px;
+  color: #3456ff;
+}
+
+.started-year {
+  background: #e7ecf8;
+  padding: 10px 20px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.started-year strong {
+  font-size: 24px;
+  display: block;
+  color: #0c1e36;
+}
+
+.started-year span {
+  font-size: 12px;
+  color: #555;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .features-container {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .features-images {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .features-bottom {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

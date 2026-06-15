@@ -1,0 +1,13 @@
+body { margin:0; font-family:sans-serif; }
+.navbar { display:flex; justify-content:space-between; padding:1rem; background:#fff; }
+.navbar ul { display:flex; gap:1rem; list-style:none; margin:0; }
+.hero-section { display:flex; align-items:center; padding:4rem; background:#f9f9f9; }
+.hero-text { flex:1; }
+.hero-btn { padding:0.75rem 1.5rem; background:#0056d2; color:#fff; border:none; cursor:pointer; }
+.hero-image { max-width:50%; }
+.features-section { padding:3rem; text-align:center; }
+.features-grid { display:flex; gap:2rem; justify-content:center; margin-top:2rem; }
+.feature-card { flex:1; padding:2rem; border:1px solid #ddd; border-radius:8px; }
+.about-section { padding:3rem; background:#fff; }
+.footer { padding:2rem; background:#222; color:#fff; text-align:center; }
+.social-icons a { margin:0 0.5rem; color:#fff; }

@@ -1,0 +1,112 @@
+.projects-section {
+  background-color: #f1f3fc;
+  padding: 60px 20px;
+  text-align: left;
+}
+
+.projects-header {
+  max-width: 800px;
+  margin: 0 auto 40px auto;
+  text-align: left;
+}
+
+.subtitle {
+  color: #3f51b5;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 1.2px;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 800;
+  margin-bottom: 12px;
+  color: #1c1f31;
+}
+
+.description {
+  font-size: 17px;
+  color: #444c63;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.category-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.category-buttons button {
+  padding: 12px 24px;
+  background-color: #e4e8f9;
+  border: 2px solid transparent;
+  border-radius: 30px;
+  color: #1c1f31;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 8px rgba(63, 81, 181, 0.08);
+}
+
+.category-buttons button:hover,
+.category-buttons .active {
+  background-color: #3f51b5;
+  color: #fff;
+  border-color: #3f51b5;
+  transform: translateY(-2px);
+}
+
+.projects-gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.project-card {
+  position: relative;
+  width: 300px;
+  border-radius: 12px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.project-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: all 0.4s ease;
+  opacity: 0.85;
+}
+
+.project-card:hover img {
+  transform: scale(1.05);
+  opacity: 0.5;
+}
+
+.project-card::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(to bottom right, rgba(63, 81, 181, 0.4), rgba(0, 0, 0, 0.2));
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  z-index: 1;
+  border-radius: 12px;
+}
+
+.project-card:hover::after {
+  opacity: 1;
+}

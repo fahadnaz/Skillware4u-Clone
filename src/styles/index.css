@@ -1,0 +1,30 @@
+/* File: src/styles/index.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #29488e;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.logo {
+  height: 40px;
+}
+
+.footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #222;
+  color: white;
+}
